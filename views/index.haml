@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{charset: 'utf-8'}
+    %title Bogie
+    %link{rel: 'stylesheet', href: '/assets/styles/application.css'}
+
+  %body
+    %form{action: '/download', method: 'post'}
+      %input{name: 'url', type: 'text'}
+      %input{name: 'provider', type: 'text'}
+      %input{name: 'type', type: 'text'}
+      %input{type: 'submit', value: 'Загрузить'}

@@ -4,4 +4,7 @@ require 'bundler'
 Bundler.require
 
 require './app/application'
-run MediaManager
+
+map '/' do
+  run Bogie
+end
